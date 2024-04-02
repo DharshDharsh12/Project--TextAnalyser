@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <p class="topic">TEXT ANALYSER</p>
+    <textarea class="textarea" id="text" rows="15" cols="50" oninput="show()" placeholder="Type HERE "></textarea>
+    <div class="wrapper-box">
+      <div class="box">Character:<p id="character">0</p>
+      </div>
+      <div class="box">Words:<p id="words">0</p>
+      </div>
+      <div class="box">Sentence:<p id="sentences">0</p>
+      </div>
+      <div class="box">Special Character:<p id="specialchar">0</p>
+      </div>
+      <div class="box">Longest Word:<p id="longestWord"> </p>
+      </div>
+       <div class="box">Average Word:<p id="averageword"> </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
